@@ -1,8 +1,8 @@
-# Retro Revival Snake Game 🐍
+# Retro Revival Snake Game 
 
 A modern take on the classic Snake game featuring retro aesthetics and an intelligent AI opponent using BFS pathfinding.
 
-## ✨ Features
+##  Features
 
 - **Classic Snake Gameplay**: Smooth arrow key controls with responsive movement
 - **BFS AI Rival**: Intelligent opponent using Breadth-First Search pathfinding for optimal routes
@@ -13,7 +13,7 @@ A modern take on the classic Snake game featuring retro aesthetics and an intell
 - **High Scores**: Local storage of top 10 scores with winner tracking
 - **Responsive Design**: Works perfectly on desktop and mobile devices
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option 1: Direct Browser Play (Recommended)
 1. Download or clone the repository
@@ -50,7 +50,7 @@ npm run dev
 - **Space**: Pause/Resume
 - **Mouse**: Navigate menus
 
-## 🤖 AI Features
+## AI Features
 
 ### BFS Pathfinding Algorithm
 - **Optimal Routes**: Always finds the shortest path to food
@@ -63,7 +63,7 @@ npm run dev
 - **Survival Mode**: Prioritizes safety when no food path exists
 - **Adaptive Difficulty**: Easy, Medium, Hard settings affect AI speed and aggression
 
-## 🎮 Game Features
+##  Game Features
 
 ### Settings Menu
 - **Volume Control**: Adjustable audio levels (0-100%)
@@ -77,7 +77,7 @@ npm run dev
 - **Date Stamps**: Shows when each score was achieved
 - **Visual Rankings**: Gold, silver, bronze highlighting for top 3
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Architecture
 - **Frontend**: Vanilla JavaScript with HTML5 Canvas
