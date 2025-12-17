@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Revival Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>RETRO REVIVAL SNAKE</h1>
+            <div id="scores">
+                <div class="score-display">
+                    <span>PLAYER</span>
+                    <span id="player-score">0</span>
+                </div>
+                <div class="score-display">
+                    <span>AI RIVAL</span>
+                    <span id="ai-score">0</span>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <canvas id="game-canvas" width="800" height="600"></canvas>
+            
+            <div id="menu-overlay" class="overlay">
+                <div class="menu">
+                    <h2>RETRO SNAKE</h2>
+                    <button id="start-btn" class="menu-btn">START GAME</button>
+                    <button id="settings-btn" class="menu-btn">SETTINGS</button>
+                    <button id="scores-btn" class="menu-btn">HIGH SCORES</button>
+                </div>
+            </div>
+            
+            <div id="game-over-overlay" class="overlay hidden">
+                <div class="menu">
+                    <h2 id="winner-text">GAME OVER</h2>
+                    <div class="final-scores">
+                        <p>Player: <span id="final-player-score">0</span></p>
+                        <p>AI Rival: <span id="final-ai-score">0</span></p>
+                    </div>
+                    <button id="restart-btn" class="menu-btn">PLAY AGAIN</button>
+                    <button id="menu-btn" class="menu-btn">MAIN MENU</button>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="controls">
+                <p>Use ARROW KEYS to move • SPACE to pause</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="game-bundle.js"></script>
+</body>
+</html>
