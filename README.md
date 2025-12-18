@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".kiro/game.png" alt="Aries Logo" width="150"/>
+  <img src=".kiro/game.png" alt="Game Logo" width="400"/>
 </p>
 
 # Retro Revival Snake Game 
