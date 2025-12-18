@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="kiro/screenshots/game.png" alt="Aries Logo" width="150"/>
+</p>
+
 # Retro Revival Snake Game 
 
 A modern take on the classic Snake game featuring retro aesthetics and an intelligent AI opponent using BFS pathfinding.
